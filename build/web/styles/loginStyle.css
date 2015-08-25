@@ -1,0 +1,151 @@
+<style type="text/css" media="screen">
+
+h1 {
+top: -20px;
+left: 10px;
+font-family: Helvetica_Light-Normal;
+}
+
+.failMessage {
+    font-family: Helvetica_Light-Normal;
+    font-size:2em;
+    position:relative;
+    left:650px;
+    top:350px;
+}
+
+.welcome {
+position:relative;
+font-family: Helvetica_Light-Normal;
+font-size: 15em;
+top:300px;
+
+line-height:10px
+}
+
+body {
+margin: 10px;
+padding: 0;
+font-family: Helvetica_Light-Normal;
+font-size: 0.7em;
+background: #FFE2E2;
+}
+
+.menu {
+width: 100%;
+background: rgb(110,110,110);
+position: absolute;
+top: 0px;
+float: right;
+left: 0px;
+height: 100px;
+line-height:100px;
+
+}
+
+.loginForm {
+position: absolute;
+top:450px;
+left:550px;
+font-family: Helvetica_Light-Normal;
+font-size: 1em;
+}
+
+button {
+border: 0px;
+}	
+
+input[type=submit] {
+color: #fff; /* ���� ������ */
+text-decoration: none; /* ������� ������������� � ������ */
+user-select: none; /* ������� ��������� ������ */
+background:  rgb(232,95,76); /* ��� ������ */
+padding: 7px 12px; /* ������ �� ������ */
+outline: none; /* ������� ������ � Mozilla */
+font-family: Helvetica_Light-Normal;
+position: relative;
+top: 12px;
+left: 19%;
+font-size:12px;
+border: 0px;
+font-size: 3em;
+}
+
+input[type=submit]:hover {
+background: #FFE2E2; 			/* ��� ��������� ������� ����� */
+}
+
+input[type=submit]:active { 
+background: rgb(152,15,0); 		/* ��� ������� */
+} 
+
+input[type=submit]:focus { 
+outline:0;
+} 
+
+
+input[type=reset] {
+color: #fff; /* ���� ������ */
+text-decoration: none; /* ������� ������������� � ������ */
+user-select: none; /* ������� ��������� ������ */
+background:  rgb(232,95,76); /* ��� ������ */
+padding: 7px 12px; /* ������ �� ������ */
+outline: none; /* ������� ������ � Mozilla */
+font-family: Helvetica_Light-Normal;
+position: relative;
+top: 12px;
+left: 19%;
+font-size:12px;
+border: 0px;
+font-size: 3em;
+}
+
+input[type=reset]:hover {
+background: #FFE2E2; 			/* ��� ��������� ������� ����� */
+}
+
+input[type=reset]:active { 
+background: rgb(152,15,0); 		/* ��� ������� */
+} 
+
+input[type=reset]:focus { 
+outline:0;
+} 
+
+.langIcon {
+float: left;
+color: transparent;
+position: absolute;
+top: 30px;
+right: 100px;
+}
+
+.ru {
+background: url("images//russia.png");
+height: 30px;
+width: 30px;
+position: relative;
+left: 35px;
+cursor: pointer;
+}
+
+.en {
+background: url("images//usa.png");
+height: 30px;
+width: 30px;
+position: relative;
+left: 70px;
+cursor: pointer;
+}
+
+.fr {
+background: url("images//france.png");
+height: 30px;
+width: 30px;
+position: relative;
+cursor: pointer;
+}
+
+
+
+</style>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 10.06.2015 1:54:26 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="com.dao.Comments" table="comments" catalog="serzh" optimistic-lock="version">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="assigned" />
+        </id>
+        <property name="user" type="string">
+            <column name="user" length="50" not-null="true" />
+        </property>
+        <property name="comment" type="string">
+            <column name="comment" length="250" not-null="true" />
+        </property>
+        <property name="date" type="string">
+            <column name="date" length="50" not-null="true" />
+        </property>
+    </class>
+</hibernate-mapping>

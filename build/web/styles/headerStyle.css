@@ -1,0 +1,155 @@
+<style type="text/css" media="screen">
+
+.menu {
+width: 100%;
+background: rgb(110,110,110);
+position: absolute;
+top: 0px;
+float: right;
+left: 0px;
+height: 100px;
+line-height:100px;
+}
+
+.userInfo{
+position: absolute;
+top:8px;
+left:10px;
+font-size: 2em;
+font-family: Helvetica_Light-Normal;
+}
+
+.langIcon {
+float: left;
+color: transparent;
+position: absolute;
+top: 30px;
+right: 100px;
+}
+
+.ru {
+background: url("images//russia.png");
+height: 30px;
+width: 30px;
+position: relative;
+left: 35px;
+cursor: pointer;
+}
+
+.en {
+background: url("images//usa.png");
+height: 30px;
+width: 30px;
+position: relative;
+left: 70px;
+cursor: pointer;
+}
+
+.fr {
+background: url("images//france.png");
+height: 30px;
+width: 30px;
+position: relative;
+cursor: pointer;
+}
+
+.login {
+position: absolute;
+left:40px;
+top: 4px;
+}
+
+.pages {
+position: absolute;
+z-index: 30;
+left: 250px;
+top: 40px;
+}
+
+#b {
+position:fixed;
+top:0;
+left:0;
+right:0;
+bottom:0;
+display:none;
+background: grey;
+z-index:1;
+}
+
+#a {
+border:1px solid black;
+position:fixed;
+background: rgb(110,110,110);
+z-index:3;
+display:none;
+}
+
+#windows {
+padding: 5px;
+width: 1400px;
+height: 80px;
+font-size: 2em;
+}
+
+a.pages
+{
+background: #97cdff;
+color: #fff;
+text-decoration: none; /* ������� ������������� � ������ */
+user-select: none; /* ������� ��������� ������ */
+background:  rgb(232,95,76); /* ��� ������ */
+padding: 7px;
+}
+
+a:hover.pages
+{
+background: #FFE2E2; 
+color: white;
+padding: 7px;
+text-decoration: none;
+}
+
+a.exit {
+color: #fff; /* ���� ������ */
+text-decoration: none; /* ������� ������������� � ������ */
+user-select: none; /* ������� ��������� ������ */
+background:  rgb(232,95,76); /* ��� ������ */
+padding: 7px 7px; /* ������ �� ������ */
+outline: none; /* ������� ������ � Mozilla */
+position: relative;
+top: 3px;
+left: 15%;
+font-size:12px;
+}
+
+a.exit:hover { 
+background: #FFE2E2; 			/* ��� ��������� ������� ����� */
+} 
+
+a.exit:active { 
+background: rgb(152,15,0); 		/* ��� ������� */
+} 
+
+a.userPage {
+color: #fff; /* ���� ������ */
+text-decoration: none; /* ������� ������������� � ������ */
+user-select: none; /* ������� ��������� ������ */
+background: rgb(110,110,110); /* ��� ������ */
+padding: 8px 9px; /* ������ �� ������ */
+outline: none; /* ������� ������ � Mozilla */
+position: relative;
+top: 3px;
+left: 13%;
+font-size:12px;
+}
+
+a.userPage:hover { 
+background: rgb(110,110,110); 			/* ��� ��������� ������� ����� */
+} 
+
+a.userPage:active { 
+background: rgb(110,110,110); 		/* ��� ������� */
+} 
+
+</style>
